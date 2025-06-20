@@ -1,6 +1,6 @@
 # 🧠 ASL Sign Language Detection App
 
-This project is a real-time American Sign Language (ASL) recognition system that combines the power of **YOLOv8** (for hand detection), **MediaPipe** (for keypoint extraction), and a lightweight **MLP classifier** (for letter classification). The app runs on **Streamlit** with webcam support.
+This project is a real-time American Sign Language (ASL) recognition system that combines the power of **YOLOv8** (for hand detection),.The app runs on **Streamlit** with webcam support.
 
 ---
 
