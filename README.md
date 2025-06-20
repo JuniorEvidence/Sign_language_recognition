@@ -1,6 +1,29 @@
-# Sign_language_recognition
-This model is trained for image of sign language alphabets and it recognises them
-1. Download the wieghts.h5 and model_a.json file in your system
-2. download the gui.py file and put appropriate path to .h5 and .json file from your system in gui.py.
-3. Run the gui.py file
-4. Upload a image of sign.
+# 🧠 ASL Sign Language Detection App
+
+This project is a real-time American Sign Language (ASL) recognition system that combines the power of **YOLOv8** (for hand detection), **MediaPipe** (for keypoint extraction), and a lightweight **MLP classifier** (for letter classification). The app runs on **Streamlit** with webcam support.
+
+---
+
+## 🚀 Features
+
+- 🔍 **YOLOv8**: Detects the hand in real-time video frames.
+- 🖥️ **Streamlit App**: Interactive UI for webcam-based live predictions..
+- ✅ Modular and extensible for future model improvements.
+
+---
+
+## 📁 Dataset Used
+
+**[ASL Alphabet Dataset - Kaggle](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)**  
+- 87,000 training images (200×200 px) in 29 labeled folders  
+- Classes: A-Z, SPACE, DELETE, NOTHING
+
+---
+
+## 🧰 Requirements
+
+Install dependencies in a virtual environment:
+
+```bash
+pip install -r requirements.txt
+
